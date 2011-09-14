@@ -5,12 +5,30 @@ Interact with your Arduino in a quick, native and intuitive way using Buttons fo
 
 === Features === 
 
-✔ Turn on and off your Arduino outputs with ease using the circle buttons 
-✔ Finely adjust the PWM outputs using the rotary sliders 
-✔ Customize button colours 
-✔ Full-screen mode (supported on 10.7+) 
-✔ No coding necessary 
-✔ API available
+  * Turn on and off your Arduino outputs with ease using the circle buttons 
+  * Finely adjust the PWM outputs using the rotary sliders 
+  * Customize button colours 
+  * Full-screen mode (supported on 10.7+) 
+  * No coding necessary 
+  * API available
+
+=== Works great for === 
+
+  * Mood lighting - Have some LEDs connected to your Arduino for backlighting your computer desk, or similar? Easily control which LEDs are on and off to create a mixture of colours to suit your mood 
+
+  * Quick testing - Experiment with different outputs and combinations for your project, without touching a single line of code 
+
+  * Teaching students - Focus on the outputs and circuits without distractions. Demonstrate what happens when an output is on/off, and when the PWM changes from low to high 
+
+  * Live demos - Effectively communicate your project's output ideas and concepts with others 
+
+  * And more! - Arduino projects are only limited by your imagination! Create the next best project, and use Buttons for Arduino to control it 
+
+
+To use Buttons for Arduino with your Arduino, install the ButtonsApp library from Buttons For Arduino's support website and upload the included example sketch to your Arduino. 
+
+That's it! Sit back, relax, and press some buttons!
+
 
 ##Usage
 
