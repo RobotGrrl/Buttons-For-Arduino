@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B607FCC41410047E0022D044 /* DataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B607FCC31410047E0022D044 /* DataHandler.m */; };
+		B607FCCA141007430022D044 /* Settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = B607FCC9141007420022D044 /* Settings.plist */; };
+		B628B537142130C6002FB6F7 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = B628B536142130C6002FB6F7 /* dsa_pub.pem */; };
+		B628B539142130DA002FB6F7 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B628B538142130DA002FB6F7 /* Sparkle.framework */; };
+		B628B53A142130F8002FB6F7 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B628B538142130DA002FB6F7 /* Sparkle.framework */; };
+		B64FC93F1411E4F2007EED5E /* Matatino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64FC93E1411E4F2007EED5E /* Matatino.framework */; };
+		B64FC9461411EBAF007EED5E /* Matatino.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B64FC93E1411E4F2007EED5E /* Matatino.framework */; };
+		B65CCC69140BCF6D00A078EF /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65CCC67140BCF6D00A078EF /* ButtonViewController.m */; };
+		B65CCC6A140BCF6D00A078EF /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B65CCC68140BCF6D00A078EF /* ButtonViewController.xib */; };
+		B696D2FC1403649D006DE9AF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B696D2FB1403649D006DE9AF /* Cocoa.framework */; };
+		B696D3061403649D006DE9AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B696D3041403649D006DE9AF /* InfoPlist.strings */; };
+		B696D3081403649D006DE9AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B696D3071403649D006DE9AF /* main.m */; };
+		B696D30C1403649D006DE9AF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B696D30A1403649D006DE9AF /* Credits.rtf */; };
+		B696D30F1403649D006DE9AF /* ButtonsForArduinoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B696D30E1403649D006DE9AF /* ButtonsForArduinoAppDelegate.m */; };
+		B696D3121403649D006DE9AF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B696D3101403649D006DE9AF /* MainMenu.xib */; };
+		B696D31A1403E8D5006DE9AF /* ButtonWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B696D3191403E8D5006DE9AF /* ButtonWindowController.m */; };
+		B696D31C1403E8E3006DE9AF /* ButtonWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B696D31B1403E8E3006DE9AF /* ButtonWindow.xib */; };
+		B696D31F1403E95D006DE9AF /* ButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B696D31E1403E95D006DE9AF /* ButtonView.m */; };
+		B6A0EED214147B630074F7E1 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B6A0EED114147B630074F7E1 /* Icon.icns */; };
+		B6EF231E140D847E00CC25DD /* RotaryCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF231B140D847E00CC25DD /* RotaryCategories.m */; };
+		B6EF231F140D847E00CC25DD /* RotaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF231D140D847E00CC25DD /* RotaryView.m */; };
+		B6EF2324140D9A4100CC25DD /* RotaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF2322140D9A4100CC25DD /* RotaryViewController.m */; };
+		B6EF2325140D9A4100CC25DD /* RotaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6EF2323140D9A4100CC25DD /* RotaryViewController.xib */; };
+		B6EF232C140DBC8A00CC25DD /* UpdateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF232B140DBC8A00CC25DD /* UpdateHandler.m */; };
+		B6EF233E140EF9A000CC25DD /* button-mousedown.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6EF233B140EF9A000CC25DD /* button-mousedown.wav */; };
+		B6EF233F140EF9A000CC25DD /* button-mouseup.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6EF233C140EF9A000CC25DD /* button-mouseup.wav */; };
+		B6EF2340140EF9A000CC25DD /* rotary-mouseup.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6EF233D140EF9A000CC25DD /* rotary-mouseup.wav */; };
+		B6EF2345140F3C1C00CC25DD /* ButtonWindowBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EF2344140F3C1C00CC25DD /* ButtonWindowBackgroundView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B64FC9451411EB8F007EED5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B64FC9461411EBAF007EED5E /* Matatino.framework in CopyFiles */,
+				B628B53A142130F8002FB6F7 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B607FCC21410047E0022D044 /* DataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHandler.h; sourceTree = "<group>"; };
+		B607FCC31410047E0022D044 /* DataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHandler.m; sourceTree = "<group>"; };
+		B607FCC9141007420022D044 /* Settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings.plist; sourceTree = "<group>"; };
+		B628B536142130C6002FB6F7 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		B628B538142130DA002FB6F7 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		B64FC93E1411E4F2007EED5E /* Matatino.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Matatino.framework; path = Frameworks/Matatino.framework; sourceTree = "<group>"; };
+		B65CCC66140BCF6D00A078EF /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		B65CCC67140BCF6D00A078EF /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		B65CCC68140BCF6D00A078EF /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		B696D2F71403649D006DE9AF /* Buttons for Arduino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buttons for Arduino.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B696D2FB1403649D006DE9AF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B696D2FE1403649D006DE9AF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B696D2FF1403649D006DE9AF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B696D3001403649D006DE9AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B696D3031403649D006DE9AF /* ButtonsForArduino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonsForArduino-Info.plist"; sourceTree = "<group>"; };
+		B696D3051403649D006DE9AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B696D3071403649D006DE9AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B696D3091403649D006DE9AF /* ButtonsForArduino-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonsForArduino-Prefix.pch"; sourceTree = "<group>"; };
+		B696D30B1403649D006DE9AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B696D30D1403649D006DE9AF /* ButtonsForArduinoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonsForArduinoAppDelegate.h; sourceTree = "<group>"; };
+		B696D30E1403649D006DE9AF /* ButtonsForArduinoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonsForArduinoAppDelegate.m; sourceTree = "<group>"; };
+		B696D3111403649D006DE9AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B696D3181403E8D5006DE9AF /* ButtonWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonWindowController.h; sourceTree = "<group>"; };
+		B696D3191403E8D5006DE9AF /* ButtonWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonWindowController.m; sourceTree = "<group>"; };
+		B696D31B1403E8E3006DE9AF /* ButtonWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonWindow.xib; sourceTree = "<group>"; };
+		B696D31D1403E95D006DE9AF /* ButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonView.h; sourceTree = "<group>"; };
+		B696D31E1403E95D006DE9AF /* ButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonView.m; sourceTree = "<group>"; };
+		B6A0EED114147B630074F7E1 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = ../Icon.icns; sourceTree = "<group>"; };
+		B6EF231A140D847E00CC25DD /* RotaryCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryCategories.h; sourceTree = "<group>"; };
+		B6EF231B140D847E00CC25DD /* RotaryCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotaryCategories.m; sourceTree = "<group>"; };
+		B6EF231C140D847E00CC25DD /* RotaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryView.h; sourceTree = "<group>"; };
+		B6EF231D140D847E00CC25DD /* RotaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotaryView.m; sourceTree = "<group>"; };
+		B6EF2321140D9A4100CC25DD /* RotaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryViewController.h; sourceTree = "<group>"; };
+		B6EF2322140D9A4100CC25DD /* RotaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotaryViewController.m; sourceTree = "<group>"; };
+		B6EF2323140D9A4100CC25DD /* RotaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotaryViewController.xib; sourceTree = "<group>"; };
+		B6EF232A140DBC8A00CC25DD /* UpdateHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateHandler.h; sourceTree = "<group>"; };
+		B6EF232B140DBC8A00CC25DD /* UpdateHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateHandler.m; sourceTree = "<group>"; };
+		B6EF233B140EF9A000CC25DD /* button-mousedown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "button-mousedown.wav"; sourceTree = "<group>"; };
+		B6EF233C140EF9A000CC25DD /* button-mouseup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "button-mouseup.wav"; sourceTree = "<group>"; };
+		B6EF233D140EF9A000CC25DD /* rotary-mouseup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "rotary-mouseup.wav"; sourceTree = "<group>"; };
+		B6EF2343140F3C1C00CC25DD /* ButtonWindowBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonWindowBackgroundView.h; sourceTree = "<group>"; };
+		B6EF2344140F3C1C00CC25DD /* ButtonWindowBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonWindowBackgroundView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B696D2F41403649D006DE9AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B696D2FC1403649D006DE9AF /* Cocoa.framework in Frameworks */,
+				B64FC93F1411E4F2007EED5E /* Matatino.framework in Frameworks */,
+				B628B539142130DA002FB6F7 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B696D2EC1403649D006DE9AF = {
+			isa = PBXGroup;
+			children = (
+				B628B538142130DA002FB6F7 /* Sparkle.framework */,
+				B628B536142130C6002FB6F7 /* dsa_pub.pem */,
+				B696D3011403649D006DE9AF /* ButtonsForArduino */,
+				B696D2FA1403649D006DE9AF /* Frameworks */,
+				B696D2F81403649D006DE9AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B696D2F81403649D006DE9AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B696D2F71403649D006DE9AF /* Buttons for Arduino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B696D2FA1403649D006DE9AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B64FC93E1411E4F2007EED5E /* Matatino.framework */,
+				B696D2FB1403649D006DE9AF /* Cocoa.framework */,
+				B696D2FD1403649D006DE9AF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B696D2FD1403649D006DE9AF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B696D2FE1403649D006DE9AF /* AppKit.framework */,
+				B696D2FF1403649D006DE9AF /* CoreData.framework */,
+				B696D3001403649D006DE9AF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B696D3011403649D006DE9AF /* ButtonsForArduino */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0EED514147DD20074F7E1 /* Buttons */,
+				B6A0EED414147DB40074F7E1 /* Handlers */,
+				B696D30D1403649D006DE9AF /* ButtonsForArduinoAppDelegate.h */,
+				B696D30E1403649D006DE9AF /* ButtonsForArduinoAppDelegate.m */,
+				B696D3101403649D006DE9AF /* MainMenu.xib */,
+				B6EF2343140F3C1C00CC25DD /* ButtonWindowBackgroundView.h */,
+				B6EF2344140F3C1C00CC25DD /* ButtonWindowBackgroundView.m */,
+				B696D3181403E8D5006DE9AF /* ButtonWindowController.h */,
+				B696D3191403E8D5006DE9AF /* ButtonWindowController.m */,
+				B696D31B1403E8E3006DE9AF /* ButtonWindow.xib */,
+				B696D3021403649D006DE9AF /* Supporting Files */,
+			);
+			path = ButtonsForArduino;
+			sourceTree = "<group>";
+		};
+		B696D3021403649D006DE9AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF233A140EF9A000CC25DD /* Sounds */,
+				B607FCC9141007420022D044 /* Settings.plist */,
+				B6A0EED114147B630074F7E1 /* Icon.icns */,
+				B696D3031403649D006DE9AF /* ButtonsForArduino-Info.plist */,
+				B696D3041403649D006DE9AF /* InfoPlist.strings */,
+				B696D3071403649D006DE9AF /* main.m */,
+				B696D3091403649D006DE9AF /* ButtonsForArduino-Prefix.pch */,
+				B696D30A1403649D006DE9AF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6A0EED414147DB40074F7E1 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF232A140DBC8A00CC25DD /* UpdateHandler.h */,
+				B6EF232B140DBC8A00CC25DD /* UpdateHandler.m */,
+				B607FCC21410047E0022D044 /* DataHandler.h */,
+				B607FCC31410047E0022D044 /* DataHandler.m */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		B6A0EED514147DD20074F7E1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B696D31D1403E95D006DE9AF /* ButtonView.h */,
+				B696D31E1403E95D006DE9AF /* ButtonView.m */,
+				B65CCC66140BCF6D00A078EF /* ButtonViewController.h */,
+				B65CCC67140BCF6D00A078EF /* ButtonViewController.m */,
+				B65CCC68140BCF6D00A078EF /* ButtonViewController.xib */,
+				B6EF231C140D847E00CC25DD /* RotaryView.h */,
+				B6EF231D140D847E00CC25DD /* RotaryView.m */,
+				B6EF2321140D9A4100CC25DD /* RotaryViewController.h */,
+				B6EF2322140D9A4100CC25DD /* RotaryViewController.m */,
+				B6EF2323140D9A4100CC25DD /* RotaryViewController.xib */,
+				B6EF231A140D847E00CC25DD /* RotaryCategories.h */,
+				B6EF231B140D847E00CC25DD /* RotaryCategories.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		B6EF233A140EF9A000CC25DD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF233B140EF9A000CC25DD /* button-mousedown.wav */,
+				B6EF233C140EF9A000CC25DD /* button-mouseup.wav */,
+				B6EF233D140EF9A000CC25DD /* rotary-mouseup.wav */,
+			);
+			name = Sounds;
+			path = ../Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B696D2F61403649D006DE9AF /* ButtonsForArduino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B696D3151403649D006DE9AF /* Build configuration list for PBXNativeTarget "ButtonsForArduino" */;
+			buildPhases = (
+				B696D2F31403649D006DE9AF /* Sources */,
+				B696D2F41403649D006DE9AF /* Frameworks */,
+				B696D2F51403649D006DE9AF /* Resources */,
+				B64FC9451411EB8F007EED5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonsForArduino;
+			productName = ButtonsForArduino;
+			productReference = B696D2F71403649D006DE9AF /* Buttons for Arduino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B696D2EE1403649D006DE9AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+				ORGANIZATIONNAME = robotgrrl.com;
+			};
+			buildConfigurationList = B696D2F11403649D006DE9AF /* Build configuration list for PBXProject "ButtonsForArduino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B696D2EC1403649D006DE9AF;
+			productRefGroup = B696D2F81403649D006DE9AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B696D2F61403649D006DE9AF /* ButtonsForArduino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B696D2F51403649D006DE9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B696D3061403649D006DE9AF /* InfoPlist.strings in Resources */,
+				B696D30C1403649D006DE9AF /* Credits.rtf in Resources */,
+				B696D3121403649D006DE9AF /* MainMenu.xib in Resources */,
+				B696D31C1403E8E3006DE9AF /* ButtonWindow.xib in Resources */,
+				B65CCC6A140BCF6D00A078EF /* ButtonViewController.xib in Resources */,
+				B6EF2325140D9A4100CC25DD /* RotaryViewController.xib in Resources */,
+				B6EF233E140EF9A000CC25DD /* button-mousedown.wav in Resources */,
+				B6EF233F140EF9A000CC25DD /* button-mouseup.wav in Resources */,
+				B6EF2340140EF9A000CC25DD /* rotary-mouseup.wav in Resources */,
+				B607FCCA141007430022D044 /* Settings.plist in Resources */,
+				B6A0EED214147B630074F7E1 /* Icon.icns in Resources */,
+				B628B537142130C6002FB6F7 /* dsa_pub.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B696D2F31403649D006DE9AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B696D3081403649D006DE9AF /* main.m in Sources */,
+				B696D30F1403649D006DE9AF /* ButtonsForArduinoAppDelegate.m in Sources */,
+				B696D31A1403E8D5006DE9AF /* ButtonWindowController.m in Sources */,
+				B696D31F1403E95D006DE9AF /* ButtonView.m in Sources */,
+				B65CCC69140BCF6D00A078EF /* ButtonViewController.m in Sources */,
+				B6EF231E140D847E00CC25DD /* RotaryCategories.m in Sources */,
+				B6EF231F140D847E00CC25DD /* RotaryView.m in Sources */,
+				B6EF2324140D9A4100CC25DD /* RotaryViewController.m in Sources */,
+				B6EF232C140DBC8A00CC25DD /* UpdateHandler.m in Sources */,
+				B6EF2345140F3C1C00CC25DD /* ButtonWindowBackgroundView.m in Sources */,
+				B607FCC41410047E0022D044 /* DataHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B696D3041403649D006DE9AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B696D3051403649D006DE9AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B696D30A1403649D006DE9AF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B696D30B1403649D006DE9AF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		B696D3101403649D006DE9AF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B696D3111403649D006DE9AF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B696D3131403649D006DE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B696D3141403649D006DE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B696D3161403649D006DE9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonsForArduino/ButtonsForArduino-Prefix.pch";
+				INFOPLIST_FILE = "ButtonsForArduino/ButtonsForArduino-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Buttons for Arduino";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B696D3171403649D006DE9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonsForArduino/ButtonsForArduino-Prefix.pch";
+				INFOPLIST_FILE = "ButtonsForArduino/ButtonsForArduino-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "Buttons for Arduino";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B696D2F11403649D006DE9AF /* Build configuration list for PBXProject "ButtonsForArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B696D3131403649D006DE9AF /* Debug */,
+				B696D3141403649D006DE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B696D3151403649D006DE9AF /* Build configuration list for PBXNativeTarget "ButtonsForArduino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B696D3161403649D006DE9AF /* Debug */,
+				B696D3171403649D006DE9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B696D2EE1403649D006DE9AF /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ButtonsForArduino' target in the 'ButtonsForArduino' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
